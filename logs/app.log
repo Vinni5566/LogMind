@@ -1,0 +1,11 @@
+2026-05-31 12:00:01 INFO [user-service] [req-101] User login successful.
+2026-05-31 12:00:05 WARN [payment-service] [req-102] Payment gateway timeout, retrying...
+2026-05-31 12:00:10 ERROR [database-service] [req-103] Database connection failed: exception connection refused.
+2026-05-31 12:00:15 FATAL [auth-service] [req-104] Security incident: panic crash occurred during decryption.
+2026-05-31 12:00:20 INFO [api-gateway] [req-105] Routing to http://192.168.1.15/v1/auth
+2026-05-31 12:00:25 INFO [billing-service] [req-106] Token verified: bearer secret_token_xyz_123
+2026-05-31 12:00:30 DEBUG [email-service] [req-107] Sending signup email to customer@example.com
+This line has no timestamp and no request or trace ID!
+2026-05-31 12:00:35 INFO [notification-service] This line has a timestamp but no context ID!
+This line has a request-id: req-108 but no timestamp!
+Just some random text with absolutely nothing.

@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# LogMind output files
+.logmind.json
+logmind.dot
+logmind_report.txt
+
+# Also ignore them if they are in the logs folder
+logs/.logmind.json
+logs/logmind.dot
+logs/logmind_report.txt
